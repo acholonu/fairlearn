@@ -1255,10 +1255,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fairlearn-dashboard@0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/fairlearn-dashboard/-/fairlearn-dashboard-0.0.21.tgz#644eff7bf408317cbaf8c9e197888ac61a817ac0"
-  integrity sha512-vxBnnzmFDeE978VsY/JvwtYSHIfW105LVBLl9KFg8sfpYk4EIHDPdAV/djp2XEarDaHQ4gJUycp1zmpHMNowjg==
+fairlearn-dashboard@0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/fairlearn-dashboard/-/fairlearn-dashboard-0.0.22.tgz#554b20570fdce62f2d8c33a62552a2c1f74358c1"
+  integrity sha512-0EEmkX9JWfnQy72d47w21YmLLyhxMjCKlyE9iTJMPQ7mZhplIrkzJM1cCKBC+wA+RG9hm+jCAzYLittcMi526A==
   dependencies:
     jmespath "^0.15.0"
     localized-strings "^0.2.2"
@@ -2102,9 +2102,11 @@ nice-try@^1.0.4:
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -3011,6 +3013,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 ts-loader@^5.2.1:
   version "5.4.5"
   resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.4.5.tgz#a0c1f034b017a9344cef0961bfd97cc192492b8b"
@@ -3165,6 +3172,11 @@ watchpack@^1.6.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
 webpack-cli@^3.3.1:
   version "3.3.11"
   resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.3.11.tgz#3bf21889bf597b5d82c38f215135a411edfdc631"
@@ -3218,6 +3230,14 @@ webpack@4.41.2:
     terser-webpack-plugin "^1.4.1"
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which-module@^2.0.0:
   version "2.0.0"
